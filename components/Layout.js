@@ -9,7 +9,7 @@ export default function Layout({ title, keywords, description, children }) {
         <title>{title}</title>
         <meta name='keywords' content={keywords} />
         <meta name='description' content={description} />
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/favicons.png' />
       </Head>
 
       <Header />
@@ -20,7 +20,7 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: 'Welcome to DevSpace',
-  keywords: 'development, coding, programming',
+  title: 'AI: Elementary Projects',
+  keywords: 'artificial intelligence, coding, deployment',
   description: 'The best info and news in development',
 }
